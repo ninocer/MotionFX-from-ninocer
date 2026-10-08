@@ -1,0 +1,26 @@
+<resources>
+    <string name="subtitle">Motion graphics · Plugin Studio</string>
+    <string name="preview">Composition preview</string>
+    <string name="composition">Image composition</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="autosaved">Autosaved</string>
+    <string name="import_image">Import image</string>
+    <string name="export_png">Save PNG</string>
+    <string name="export_mp4">Export H.264 MP4</string>
+    <string name="cancel">Cancel export</string>
+    <string name="open_video">Open saved video</string>
+    <string name="no_player">Video saved to Movies/MotionFX. No video player found.</string>
+    <string name="effect_stack">Composition effects</string>
+    <string name="empty_stack">Add an effect, transition or preset from an enabled plugin.</string>
+    <string name="plugins">Plugins</string>
+    <string name="install">Install package</string>
+    <string name="uninstall">Uninstall</string>
+    <string name="disabled_hint">Disabled · no effect graphs or GPU resources loaded</string>
+    <string name="package_hint">Choose a .mfxplugin file. Compatible declarative packages are installed disabled.</string>
+    <string name="plugin_warning">Render notices · project settings preserved</string>
+    <string name="scope_note">Plugin Studio 0.1: a 3-second image composition. Crossfade blends into the built-in color card. Presets animate opacity. Import an image, add effects, scrub, and export.</string>
+    <string name="installed_disabled">Package installed. Enable it to use its contributions.</string>
+    <string name="video_saved">MP4 saved to Movies/MotionFX</string>
+    <string name="png_saved">PNG saved to Pictures/MotionFX</string>
+</resources>

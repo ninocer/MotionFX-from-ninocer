@@ -1,0 +1,26 @@
+<resources>
+    <string name="subtitle">Моушн-графика · Студия плагинов</string>
+    <string name="preview">Предпросмотр композиции</string>
+    <string name="composition">Композиция из изображения</string>
+    <string name="play">Пуск</string>
+    <string name="pause">Пауза</string>
+    <string name="autosaved">Сохранено</string>
+    <string name="import_image">Импорт фото</string>
+    <string name="export_png">Сохранить PNG</string>
+    <string name="export_mp4">Экспорт H.264 MP4</string>
+    <string name="cancel">Отменить экспорт</string>
+    <string name="open_video">Открыть видео</string>
+    <string name="no_player">Видео сохранено в Movies/MotionFX. Видеоплеер не найден.</string>
+    <string name="effect_stack">Эффекты композиции</string>
+    <string name="empty_stack">Добавьте эффект, переход или пресет из включённого плагина.</string>
+    <string name="plugins">Плагины</string>
+    <string name="install">Установить пакет</string>
+    <string name="uninstall">Удалить</string>
+    <string name="disabled_hint">Отключён · графы эффектов и ресурсы GPU не загружены</string>
+    <string name="package_hint">Выберите .mfxplugin. Совместимые декларативные пакеты устанавливаются отключёнными.</string>
+    <string name="plugin_warning">Замечания рендеринга · настройки проекта сохранены</string>
+    <string name="scope_note">Студия плагинов 0.1: композиция из изображения длительностью 3 секунды. Переход смешивает её со встроенной цветовой картой. Пресеты анимируют прозрачность. Импортируйте фото, добавьте эффекты и экспортируйте результат.</string>
+    <string name="installed_disabled">Пакет установлен. Включите его для использования.</string>
+    <string name="video_saved">MP4 сохранён в Movies/MotionFX</string>
+    <string name="png_saved">PNG сохранён в Pictures/MotionFX</string>
+</resources>
