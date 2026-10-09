@@ -1,0 +1,14 @@
+{
+  "api": 1,
+  "id": "motionfx.violet-film",
+  "name": "Violet Film",
+  "version": "1.0.0",
+  "description": "A gentle violet tint with increased contrast and reduced saturation.",
+  "minAppVersion": 1,
+  "dependencies": [],
+  "effects": [
+    { "kind": "tint", "amount": 0.65 },
+    { "kind": "contrast", "amount": 0.12 },
+    { "kind": "saturation", "amount": -0.18 }
+  ]
+}
