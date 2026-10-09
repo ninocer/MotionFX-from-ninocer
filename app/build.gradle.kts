@@ -14,6 +14,7 @@ android {
         versionCode = 1
         versionName = "0.1.0"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunnerArguments["additionalTestOutputDir"] = "/sdcard/Android/media/dev.motionfx/additional_test_output"
     }
     buildFeatures { compose = true }
     compileOptions {

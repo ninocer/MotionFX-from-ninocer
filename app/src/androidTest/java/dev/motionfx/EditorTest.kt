@@ -21,7 +21,9 @@ class EditorTest {
         val instrumentation=InstrumentationRegistry.getInstrumentation()
         val screenshot=checkNotNull(instrumentation.uiAutomation.takeScreenshot())
         try {
-            File(instrumentation.targetContext.getExternalFilesDir(null),"editor.png").outputStream().use {
+            val outputDir=File(checkNotNull(InstrumentationRegistry.getArguments().getString("additionalTestOutputDir")))
+            check(outputDir.isDirectory || outputDir.mkdirs())
+            File(outputDir,"editor.png").outputStream().use {
                 check(screenshot.compress(Bitmap.CompressFormat.PNG,100,it))
             }
         } finally { screenshot.recycle() }
